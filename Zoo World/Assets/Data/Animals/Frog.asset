@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fc82cb3056fdb428af0ec4defa1001, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  _statisticsRole: 0
+  _movementType: 1
+  _viewPrefab: {fileID: 414941785486331787, guid: 364c60c29ab92994eade59019ee1aeca, type: 3}
+  _material: {fileID: 2100000, guid: 9d73d4fd1b0e4e3a9db7a0a989f3c021, type: 2}
+  _movementConfig: {fileID: 11400000, guid: c96b40859d2a4228a7d4cc1fb5f0b20d, type: 2}
+  _collisionImpulse: 2
+  _spawnScale: {x: 1, y: 1, z: 1}
+  _foodChainCapabilities:
+    _canBounceOnPreyCollision: 1
+    _canBeEatenByPredator: 1
+    _canEatOtherAnimals: 0
+    _canFightPredators: 0

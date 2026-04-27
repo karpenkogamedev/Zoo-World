@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5fc82cb3056fdb428af0ec4defa1001, type: 3}
+  m_Name: Snake
+  m_EditorClassIdentifier: 
+  _statisticsRole: 1
+  _movementType: 0
+  _viewPrefab: {fileID: 4684063399489233687, guid: e3d8cb108f3385f4abef4626afb7e1e1, type: 3}
+  _material: {fileID: 2100000, guid: 67e4c0cb36af4fe8a6e457af9b8799a1, type: 2}
+  _movementConfig: {fileID: 11400000, guid: e8d8f35b0d3e4f58965c46636830cc7a, type: 2}
+  _collisionImpulse: 2
+  _spawnScale: {x: 1, y: 1, z: 1}
+  _foodChainCapabilities:
+    _canBounceOnPreyCollision: 0
+    _canBeEatenByPredator: 0
+    _canEatOtherAnimals: 1
+    _canFightPredators: 1
